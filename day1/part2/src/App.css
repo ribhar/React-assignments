@@ -1,0 +1,39 @@
+button{
+    width: 100px;
+    border-radius: 15px;
+    padding: 5px;
+    border: none;
+    margin: 10px;
+    color: white;
+}
+.App{
+    /* border: 1px solid red; */
+    width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#c1>button{
+    background-color: #17AACB;
+}
+#c2>button{
+    background-color: #8EC7D0;
+}
+#c3>button{
+    background-color: #FAA824;
+}
+#c4>button{
+    background-color: #CF3B40;
+}
+#c5>button{
+    background-color: #94C639;
+}
+#c6>button{
+    background-color: #6867A4;
+}
+#c7>button{
+    background-color: #EF4D96;
+}
+#c8>button{
+    background-color: #B69642;
+}
+
