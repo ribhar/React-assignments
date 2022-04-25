@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Mobile from "./component/Mobile"
-import Tv from "./component/Tv"
+import Mobile from "./part1/Mobile"
+import Tv from "./part1/Tv"
 
 function App() {
   return (
