@@ -1,0 +1,88 @@
+#con{
+    display: flex;
+    width: 100%;
+}
+#con>div{
+    width: 50%;
+}
+#con>div:first-child{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    font-size: 8px;
+}
+#carddiv{
+    color: white;
+    background-color: #F6425B;
+    margin: 50px 20px;
+    /* border: 1px solid red; */
+    width: 300px;
+    height: 180px;
+    border-radius: 15px;
+}
+#visaimg{
+    float: right;
+    background: url("./visa.png");
+    background-size:contain;
+    /* background-position:top; */
+    /* background: cover; */
+    width: 50px;
+    height: 50px; 
+    margin-right: 20px;
+}
+#chipimg{
+    margin-top: 45px;
+    background: url("./chip.png");
+    background-size:contain;
+    /* background-position:top; */
+    /* background: cover; */
+    width: 30px;
+    height: 30px; 
+    margin-left: 20px;
+}
+#carddiv p{
+    margin-left: 20px;
+}
+#carddiv>div:last-child{
+    display: flex
+}
+#carddiv>div:last-child>:first-child{
+    width: 40%;
+}
+#carddiv>div:last-child>span{
+    width: 20%;
+}
+.cardstuff{
+    margin: 0;
+    font-size: 14px;
+}
+#carddetails{
+    padding: 50px 20px;
+    border: 1px solid red;
+}
+#spansdiv{
+    display: flex;
+    gap: 10px;
+}
+#spansdiv input{
+    width: 43px;
+}
+#paybtn{
+    padding: 5px;
+    width: 170px;
+    border:none;
+    background-color: #F6425B;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.inputbox{
+    outline: none;
+    border: none;
+
+    border-bottom: 1px solid #F6425B;
+
+}
