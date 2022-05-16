@@ -25,6 +25,9 @@ function Nav() {
       <div>
         <Link to='/login' style={{color: "white", textDecoration: "none"}} >Login</Link>
       </div>
+      <div>
+        <Link to='/x' style={{color: "white", textDecoration: "none"}} >X</Link>
+      </div>
 
       <div>
         <Link to='/counter' style={{color: "white", textDecoration: "none"}} >Counter</Link>
